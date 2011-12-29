@@ -16,8 +16,6 @@ Source1:	http://mirrors.ctan.org/systems/texlive/tlnet/archive/translation-array
 BuildArch:	noarch
 BuildRequires:	texlive-tlpkg
 Requires(pre):	texlive-tlpkg
-Conflicts:	texlive-texmf <= 20110705-3
-Conflicts:	texlive-doc <= 20110705-3
 
 %description
 A French translation of the documentation of array.
@@ -29,7 +27,6 @@ A French translation of the documentation of array.
 %doc %{_texmfdistdir}/doc/latex/translation-array-fr/f-array.dtx
 %doc %{_texmfdistdir}/doc/latex/translation-array-fr/f-array.pdf
 %doc %{_texmfdistdir}/doc/latex/translation-array-fr/ltxdoc.cfg
-%doc %{_tlpkgobjdir}/*.tlpobj
 
 #-----------------------------------------------------------------------
 %prep
@@ -40,5 +37,3 @@ A French translation of the documentation of array.
 %install
 mkdir -p %{buildroot}%{_texmfdistdir}
 cp -fpar doc %{buildroot}%{_texmfdistdir}
-mkdir -p %{buildroot}%{_tlpkgobjdir}
-cp -fpa tlpkg/tlpobj/*.tlpobj %{buildroot}%{_tlpkgobjdir}
