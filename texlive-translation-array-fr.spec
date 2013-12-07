@@ -6,7 +6,7 @@
 # catalog-version undef
 Name:		texlive-translation-array-fr
 Version:	20111020
-Release:	4
+Release:	5
 Summary:	French translation of the documentation of array
 Group:		Publishing
 URL:		http://www.ctan.org/tex-archive/info/translations/array/fr
