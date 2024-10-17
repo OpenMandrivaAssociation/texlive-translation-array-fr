@@ -3,7 +3,7 @@ Version:	24344
 Release:	2
 Summary:	French translation of the documentation of array
 Group:		Publishing
-URL:		http://www.ctan.org/tex-archive/info/translations/array/fr
+URL:		https://www.ctan.org/tex-archive/info/translations/array/fr
 License:	LPPL
 Source0:	http://mirrors.ctan.org/systems/texlive/tlnet/archive/translation-array-fr.r%{version}.tar.xz
 Source1:	http://mirrors.ctan.org/systems/texlive/tlnet/archive/translation-array-fr.doc.r%{version}.tar.xz
